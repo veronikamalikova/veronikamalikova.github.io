@@ -1,0 +1,42 @@
+/*
+main color theme (from darkest to lightest):
+
+#494259 // dark purple-black
+#8c426b // violet
+#a6808a // old rose
+#bfbaa8 // beige
+#f2f2f0 // off-white
+
+*/
+
+/* whole page */
+html {
+    font-family: "JetBrains Mono";
+}
+
+/* nav bar and footer specific */
+nav {
+    background-color: #f2f2f0;
+    color: #494259;
+    display: inline-flex;
+    position: relative;
+    left: auto;
+    right: auto;
+}
+
+nav li {
+    display: inline;
+}
+
+nav button {
+    background-color: #494259;
+}
+
+nav button:hover {
+    background-color: #8c426b;
+}
+
+nav a {
+    color: #f2f2f0;
+    text-decoration: none;
+}
