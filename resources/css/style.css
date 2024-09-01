@@ -18,25 +18,25 @@ html {
 nav {
     background-color: #f2f2f0;
     color: #494259;
-    display: inline-flex;
-    position: relative;
-    left: auto;
-    right: auto;
 }
 
 nav li {
-    display: inline;
-}
-
-nav button {
-    background-color: #494259;
-}
-
-nav button:hover {
-    background-color: #8c426b;
+    display: inline-flex;
 }
 
 nav a {
-    color: #f2f2f0;
     text-decoration: none;
+    color: #f2f2f0;
+}
+
+nav .btn {
+    background-color: #494259;
+    float: right;
+    padding: 15px;
+    margin: 5px;
+    border-radius: 15px 50px 30px;
+}
+
+nav .btn:hover {
+    background-color: #8c426b;
 }
